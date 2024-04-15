@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./chatList.css";
 
 const ChatList = () => {
+  
+  const [addMode, setAddMode] = useState(false) //for -,+ button
   return (
     <div className='chatList'>
 
@@ -12,7 +14,13 @@ const ChatList = () => {
           <input type="text" placeholder='Search'/>
         </div>
         
-        <img src="./plus.png" alt="" className='add' />
+        {/* utilize usestate hook to change the state of the ( + & - )button */}
+        <img
+          src={addMode ? "./minus.png" : "./plus.png"} 
+          alt="" 
+          className="add"
+          onClick={() => setAddMode ((prev) => !prev)} 
+        />
       </div>
 
     </div>
