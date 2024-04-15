@@ -1,9 +1,14 @@
-import React from 'react'
-import "./list.css"
+import React from 'react';
+import "./list.css";
+import Userinfo from "../list/userInfo/Userinfo";
+import ChatList from "../list/chatList/ChatList.jsx";
 
 const List = () => {
   return (
-    <div className='list'>List</div>
+    <div className='list'>
+      <Userinfo />
+      <ChatList />
+    </div>
   )
 }
 
