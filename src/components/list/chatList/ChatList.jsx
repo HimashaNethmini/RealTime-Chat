@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./chatList.css";
 
 const ChatList = () => {
-  
+
   const [addMode, setAddMode] = useState(false) //for -,+ button
   return (
     <div className='chatList'>
@@ -19,7 +19,7 @@ const ChatList = () => {
           src={addMode ? "./minus.png" : "./plus.png"} 
           alt="" 
           className="add"
-          onClick={() => setAddMode ((prev) => !prev)} 
+          onClick={() => setAddMode ((prev) => !prev)}  //change the prev state to opposite
         />
       </div>
 
