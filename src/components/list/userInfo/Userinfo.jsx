@@ -8,7 +8,7 @@ const Userinfo = () => {
       {/* user image n name section */}
       <div className="user">
         <img src="./avatar.png" alt="" />
-        <h2>Ariana</h2>
+        <h2>Ariana Grande</h2>
       </div>
 
       {/* section */}
