@@ -23,6 +23,32 @@ const ChatList = () => {
         />
       </div>
 
+      {/* next section */}
+      {/* first person */}
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>Ariana</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      {/* second person */}
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>Ariana</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      {/* third person */}
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>Ariana</span>
+          <p>Hello</p>
+        </div>
+      </div>
+
     </div>
   )
 }
