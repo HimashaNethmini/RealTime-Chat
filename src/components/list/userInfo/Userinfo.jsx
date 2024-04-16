@@ -3,8 +3,8 @@ import "./userInfo.css";
 
 const Userinfo = () => {
   return (
-    <div className="userInfo">
 
+    <div className="userInfo">
       {/* user image n name section */}
       <div className="user">
         <img src="./avatar.png" alt="" />
