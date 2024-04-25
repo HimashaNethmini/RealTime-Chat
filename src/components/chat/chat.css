@@ -55,4 +55,16 @@
 
         }
     }
+
+.center {
+
+}
+.bottom {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dddddd35;
+
+}
 }
