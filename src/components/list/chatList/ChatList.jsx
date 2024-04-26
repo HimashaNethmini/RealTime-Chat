@@ -6,46 +6,13 @@ const ChatList = () => {
 
   return (
     <div className="chatList">
-      {/* search container */}
-      <div className="search">
-        <div className="searchBar">
-          <img src="./search.png" alt="" />
-          <input type="text" placeholder="Search" />
-        </div>
-
-        {/* utilize usestate hook to change the state of the ( + & - )button */}
-        <img
-          src={addMode ? "./minus.png" : "./plus.png"}
-          alt=""
-          className="add"
-          onClick={() => setAddMode((prev) => !prev)} //change the prev state to opposite
-        />
+     <div className="search">
+      <div className="searchBar">
+        <img src="./search.png" alt="" />
+        <input type="text" placeholder="search" />
       </div>
-
-      {/* next section */}
-      <div className="items">
-        <div className="text">
-          <img src="./avatar.png" alt="" />
-          <span>Ariana Grande</span>
-          <p>Hello</p>
-        </div>
-        <div className="text">
-          <img src="./avatar.png" alt="" />
-          <span>Ariana Grande</span>
-          <p>Hello</p>
-        </div>
-        <div className="text">
-          <img src="./avatar.png" alt="" />
-          <span>Ariana Grande</span>
-          <p>Hello</p>
-        </div>
-        <div className="text">
-          <img src="./avatar.png" alt="" />
-          <span>Ariana Grande</span>
-          <p>Hello</p>
-        </div>
-      </div>
-    
+      <img src="./plus.png" alt="" />
+     </div>  
     </div>
   );
 };
