@@ -1,33 +1,29 @@
 .userInfo {
-  padding: 20px;
-  display: flex;
-  /* align-items: center; */
-  justify-content: space-between;
-
-  .user {
+    padding: 20px;
     display: flex;
-    /*align-items: center;*/
-    gap: 20px;
+    justify-content: space-between;
 
-    img {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      margin-top: -10px;
-      object-fit: cover;
+    .user{
+        display: flex;
+        gap: 20px;
+
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: -8px;
+        }
     }
-  }
 
-  .icons {
-    display: flex;
-    gap: 20px;
+    .icons {
+        display: flex;
+        gap: 50px;
 
-    img {
-      margin-left: 20px;
-      width: 20px;
-      height: 20px;
-      cursor: pointer;
+        img {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
     }
-  }
 }
-
