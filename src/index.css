@@ -15,6 +15,7 @@ body{
   color: white;
 }
 
+/*make the container for the chatapp*/
 .container {
   width: 80vw;
   height: 90vh;
