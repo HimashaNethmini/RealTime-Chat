@@ -7,7 +7,8 @@ const Userinfo = () => {
 
       <div className="user">
         <img src="./avatar.png" alt="" />
-        <h2 style={{ marginRight: "20px", marginTop:"-5px" }}>John Doe</h2>
+        {/* <h2 style={{ marginRight: "20px", marginTop:"-5px" }}>John Doe</h2> */}
+        <h3>John Doe</h3>
       </div>
 
       <div className="icons">
