@@ -6,13 +6,19 @@ const ChatList = () => {
 
   return (
     <div className="chatList">
-     <div className="search">
-      <div className="searchBar">
-        <img src="./search.png" alt="" />
-        <input type="text" placeholder="search" />
+      <div className="search">
+        <div className="searchBar">
+          <img src="./search.png" alt="" />
+          <input type="text" placeholder="search" />
+        </div>
+        {/* Change the state of the + button - when the user clicks on it */}
+        <img
+          src={addMode ? "./minus.png" : "./plus.png"}
+          alt=""
+          className="add"
+          onClick={() => setAddMode((prev) => !prev)}
+        />
       </div>
-      <img src="./plus.png" alt="" />
-     </div>  
     </div>
   );
 };
