@@ -40,7 +40,9 @@ const Chat = () => {
           <img src="./camera.png" alt="" />
           <img src="./mic.png" alt="" />
         </div>
-        <input type="text" placeholder="Type a message ......" />
+        <input type="text" 
+          placeholder="Type a message ......" 
+          onChange={(e)=> setText(e.target.value)}/>
 
         {/* adding the emojiPicker library with useState*/}
         <div className="emoji">
