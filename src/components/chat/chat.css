@@ -58,6 +58,10 @@
    .center {
       padding: 20px;
       flex: 1;
+      overflow: scroll;
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /*gap btwn each msg */
    }
 
    .bottom {
