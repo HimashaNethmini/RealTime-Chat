@@ -10,7 +10,7 @@ const Chat = () => {
 
   //function to have the emoji on the text box
   const handleEmoji = (e) => {
-    setText((prev) => prev + e.emoji);
+    setText((prev) => prev + e.emoji); //adding the emoji
     setOpen(false)
   };
 
@@ -42,6 +42,7 @@ const Chat = () => {
         </div>
         <input type="text" 
           placeholder="Type a message ......" 
+          value={text}
           onChange={(e)=> setText(e.target.value)}/>
 
         {/* adding the emojiPicker library with useState*/}
