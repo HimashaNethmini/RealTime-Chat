@@ -3,6 +3,8 @@
    border-left: 1px solid #dddddd35;
    border-right: 1px solid #dddddd35;
    height: 100%;
+   display: flex; /*position the text box*/
+   flex-direction: column;
 
    .top {
       padding: 20px;
@@ -53,7 +55,10 @@
 
    }
 
-   .center {}
+   .center {
+      padding: 20px;
+      flex: 1;
+   }
 
    .bottom {
       padding: 20px;
@@ -99,8 +104,14 @@
 
       }
 
-      .picker {
-         
+      .emoji {
+         position: relative;
+
+         .picker {
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+         }
       }
 
    }
