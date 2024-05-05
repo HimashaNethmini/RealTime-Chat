@@ -1,5 +1,5 @@
 .list {
     flex: 1;
     display: flex;
-    font-display: column;
+    flex-direction: column;
 }
