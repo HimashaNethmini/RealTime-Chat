@@ -11,7 +11,7 @@ const Chat = () => {
   //function to have the emoji on the text box
   const handleEmoji = (e) => {
     setText((prev) => prev + e.emoji); //adding the emoji
-    setOpen(false)
+    setOpen(false);
   };
 
   return (
@@ -40,19 +40,25 @@ const Chat = () => {
           <img src="./camera.png" alt="" />
           <img src="./mic.png" alt="" />
         </div>
-        <input type="text" 
-          placeholder="Type a message ......" 
+        <input
+          type="text"
+          placeholder="Type a message ......"
           value={text}
-          onChange={(e)=> setText(e.target.value)}/>
+          onChange={(e) => setText(e.target.value)}
+        />
 
         {/* adding the emojiPicker library with useState*/}
         <div className="emoji">
-          <img src="./emoji.png" 
-            alt="" 
-            onClick={() => setOpen ((prev) => !prev)} />
+          <img
+            src="./emoji.png"
+            alt=""
+            onClick={() => setOpen((prev) => !prev)}
+          />
 
+          <div className="picker">
             {/* giving a function called handleEmoji  */}
-          <EmojiPicker open={open}  onEmojiClick={handleEmoji}/>
+            <EmojiPicker open={open} onEmojiClick={handleEmoji} />
+          </div>
         </div>
         <button className="sendButton">Send</button>
       </div>
