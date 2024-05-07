@@ -62,6 +62,46 @@
       display: flex;
       flex-direction: column;
       gap: 20px; /*gap btwn each msg */
+
+      .message {
+         max-width: 70%;
+         display: flex;
+         gap: 20px;
+         
+/* if its own's message */
+         &.own {
+            align-self: flex-end;
+
+            .texts {
+               p{
+                  background-color: #5183fe;
+               }
+         }
+
+         .texts {
+            p{
+               background-color: #5183fe;
+            }
+         }
+      }
+
+      img {
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         object-fit: cover;
+      }
+
+
+      p {
+         padding: 20px;
+         background-color: rgba(17, 25, 40, 0.3);
+         border-radius: 10px;
+      }
+
+      span {
+         font-size: 13px;
+      }
    }
 
    .bottom {
