@@ -44,6 +44,7 @@ const Chat = () => {
 
         <div className="message own">
           <div className="texts">
+            <img src="https://images.pexels.com/photos/19786509/pexels-photo-19786509/free-photo-of-woman-wearing-white-dress-on-a-field-in-summer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
             </p>
