@@ -37,7 +37,6 @@ const Chat = () => {
           <div className="texts">
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
             </p>
             <span>1 min ago</span>
           </div>
@@ -54,16 +53,6 @@ const Chat = () => {
 
         <div className="message">
           <img src="./avatar.png" alt="" />
-          <div className="texts">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-            </p>
-            <span>1 min ago</span>
-          </div>
-        </div>
-
-        <div className="message own">
           <div className="texts">
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
