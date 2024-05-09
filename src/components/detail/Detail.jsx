@@ -31,6 +31,7 @@ const Detail = () => {
           </div>
           <div className="photos">
             <div className="photoItem">
+              <div className="photoDetail">
               <img
                 src="https://images.pexels.com/photos/3419719/pexels-photo-3419719.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
@@ -39,6 +40,7 @@ const Detail = () => {
             </div>
             <img src="./download.png" alt="" />
           </div>
+        </div>
         </div>
 
         <div className="option">
