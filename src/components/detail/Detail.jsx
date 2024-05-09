@@ -29,9 +29,22 @@ const Detail = () => {
             <span>Shared Photos</span>
             <img src="./arrowDown.png" alt="" />
           </div>
+          <div className="photos">
+            <div className="photoItem">
+              <img src="https://images.pexels.com/photos/3419719/pexels-photo-3419719.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+              <span>photo_2024_2.png</span>
+            </div>
+            <img src="./download.png" alt="" />
+          </div>
         </div>
 
-      
+      <div className="option">
+        <div className="title">
+          <span>Shared Files</span>
+          <img src="./arrowUp.png" alt="" />
+        </div>
+      </div>
+      <button>Block User</button>
       </div>
     </div>
   )
