@@ -7,6 +7,7 @@ const Chat = () => {
   const [open, setOpen] = useState(false);
   //to handle the emoji function
   const [text, setText] = useState("");
+  
   //scrolling to the last message automatically
   const endRef = useRef(null)
 
