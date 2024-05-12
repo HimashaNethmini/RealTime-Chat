@@ -20,7 +20,10 @@ const login = () => {
       <div className="item">
         <h2>Create an Account</h2>
         <form>
-          <input type="file" id="file" />
+          <label htmlFor="file">
+            <img src="" alt="" />
+            Upload an image</label>
+          <input type="file" id="file" style={{display:"none"}} />
           <input type="text" placeholder="Username" name="username" />
           <input type="text" placeholder="Email" name="email" />
           <input type="password" placeholder="Password" name="password" />
