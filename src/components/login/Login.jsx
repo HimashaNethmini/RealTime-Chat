@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./login.css";
 
 const login = () => {
+  //set an avatar until an image is uploaded by the user
+  const [avatar, setAvatar] = useState({
+    file:null, //beginning no file
+    url: ""
+  })
+
   return (
     <div className="login">
       <div className="item">
