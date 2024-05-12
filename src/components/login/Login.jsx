@@ -18,12 +18,14 @@ const login = () => {
   }
 }
 
+//function to handleLogin
+
   return (
     <div className="login">
       <div className="item">
         <h2>Welcome back,</h2>
         {/* login form */}
-        <form>
+        <form onSubmit={handleLogin}>
           <input type="text" placeholder="Username" name="username" />
           <input type="text" placeholder="Email" name="email" />
           <input type="password" placeholder="Password" name="password" />
