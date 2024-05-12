@@ -37,7 +37,7 @@ const login = () => {
         <h2>Create an Account</h2>
         <form>
           <label htmlFor="file">
-            <img src="" alt="" />
+            <img src={avatar.url || "./avatar.png"} alt="" />
             Upload an image</label>
           <input type="file" id="file" style={{display:"none"}} onChange={handleAvatar}/>
           <input type="text" placeholder="Username" name="username" />
