@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './addUser.css';
 
 const addUser = () => {
   return (
@@ -18,4 +19,4 @@ const addUser = () => {
   )
 }
 
-export default addUser
+export default addUser;
