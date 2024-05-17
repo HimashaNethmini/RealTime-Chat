@@ -95,7 +95,7 @@ const Chat = () => {
           />
 
           <div className="picker">
-            {/* giving a function called handleEmoji  */}
+            {/* writing a function called handleEmoji  */}
             <EmojiPicker open={open} onEmojiClick={handleEmoji} />
           </div>
         </div>
